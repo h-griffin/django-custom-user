@@ -44,3 +44,8 @@ AUTH_USER_MODEL = ```users.CustomUser```
 **CREATE users/urls.py**
 
 **users.views.py**
+
+
+## notes -joseph Z
+meta vs Meta
+custom searches for Meta but python does not require capital classes, so error comes through manager. 'manager not available'
