@@ -6,10 +6,10 @@ from .forms import CustomUserChangeForm, CustomUserCreationForm
 from .models import CustomUser
 
 # Register your models here.
-class CustomUSerAdmin(UserAdmin):
+class CustomUserAdmin(UserAdmin):
     add_form = CustomUserCreationForm
     form = CustomUserChangeForm
     model = CustomUser
     list_display = ['email', 'username']
 
-admin.site.register(CustomUser, CustomUSerAdmin)
+admin.site.register(CustomUser, CustomUserAdmin)

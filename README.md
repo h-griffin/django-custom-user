@@ -12,7 +12,7 @@ initilize repo
 INSTALLED_APPS = ```'users.apps.UsersConfig',```
 AUTH_USER_MODEL = ```users.CustomUser```
 
-**users/medels.py**
+**users/models.py**
 - create custom user class inheriting AbstractUser
 
 **CREATE>> users/forms.py**
